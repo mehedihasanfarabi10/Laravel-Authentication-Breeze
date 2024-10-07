@@ -1,0 +1,11 @@
+
+    App create=>    composer create-project --prefer-dist laravel/laravel project-name "10.*"
+
+=> Breeze
+ 1. composer require laravel/breeze --dev
+ 2. php artisan breeze:install 
+        choose => blade
+ 3. npm install
+ 4. npm run dev
+ => Database e new database create and .env setup
+ 5. php artisan migrate
